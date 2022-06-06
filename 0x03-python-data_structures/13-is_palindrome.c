@@ -1,33 +1,70 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
+#include <stdio.h>
 
-/**
- * is_palindrome - test if is a palindrome
- * @head: firts node of list
- * Return: 1 if is palindrome, 0 for no
- */
 int is_palindrome(listint_t **head)
 {
-	listint_t *buscar;
-	int con1 = 0, con2 = 0;
-	int arr[4096];
+  listint_t *nhead, *tort, *hare, *ptort;
+  listint_t *cut = NULL, *half, *it1, *it2;
 
+  if (!head || !*head)
+    return (1);
 
-	if (!head)
-		return (0);
-	buscar = *head;
-	if (!*head || (*head)->next == NULL)
-		return (1);
-
-	for (con1 = 0; buscar; buscar = buscar->next, con1++)
-		arr[con1] = buscar->n;
-	for (con1--; con1 > con2; con1--, con2++)
+  nhead = *head;
+  if (nhead->next != NULL)
+    {
+      for (hare = nhead, tort = nhead; hare != NULL && hare->next != NULL;
+	   ptort = tort, tort = tort->next)
+	hare = hare->next->next;
+      if (hare != NULL)
 	{
-		if (arr[con2] == arr[con1])
-			;
-		else
-			return (0);
+	  cut = tort;
+	  tort = tort->next;
 	}
-	return (1);
+      ptort->next = NULL;
+      half = tort;
+      it1 = reverse_listint(&half);
+      for (it2 = *head; it2; it1 = it1->next, it2 = it2->next)
+	{
+	  if (it2->n != it1->n)
+	    return (0);
+	}
+      if (cut == NULL)
+	ptort->next = half;
+      else
+	{
+	  ptort->next = cut;
+	  cut->next = half;
+	}
+    }
+
+  return (1);
+}
+
+/**
+ * reverse_listint - Reverses a linked list in pladce
+ * @head: Pointer to a pointer pointing to the first item in the list
+ *
+ * Return: The new head of the reversed list
+ */
+listint_t *reverse_listint(listint_t **head)
+{
+  listint_t *next = NULL, *prev = NULL;
+
+  if (!head || !*head)
+    return (NULL);
+
+  while ((*head)->next)
+    {
+      next = (*head)->next;
+
+      (*head)->next = prev;
+
+      prev = *head;
+
+      *head = next;
+    }
+
+  (*head)->next = prev;
+
+  return (*head);
 }
