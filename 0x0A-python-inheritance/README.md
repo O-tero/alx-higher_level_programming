@@ -1,4 +1,4 @@
-Python - Inheritance
+PYTHON - INHERITANCE
 
 
 
@@ -55,7 +55,6 @@ Tasks 📃
 Public instance method def print_sorted(self): that prints the list in ascending sorted order (assumes all list elements are ints).
 
 2. Exact same object
-
 
 
 2-is_same_class.py: Python function that returns True if an object is exactly an instance of a specified class; otherwise False.
