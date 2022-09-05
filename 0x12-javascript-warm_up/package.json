@@ -1,0 +1,11 @@
+{
+    "name": "my-cool-package",
+    "type": "module",
+    "devDependencies": {
+      "semistandard": "*"
+    },
+    "scripts": {
+      "test": "semistandard && node my-normal-tests-littered-with-semicolons.js"
+    }
+  }
+  
