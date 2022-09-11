@@ -4,7 +4,7 @@
 This repository contains programs written for the higher-level programming track at ALX Africa. In these projects, which began occurring in month four of the year one curriculum, I am currently learning Python.
 Simultaneously, I continued to reinforce and expand my skills in C and shell scripting. The specific list of projects contained follows:
 
-* (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x00-python-hello_world>)
+*  [title] (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x00-python-hello_world>)
 * (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions>)
 * (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x02-python-import_modules>)
 * (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x03-python-data_structures>)
@@ -28,7 +28,7 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 -------
 Otero Onderi <O-tero>
 
-# Acknowledgements :pray
+# Acknowledgements :pray:
 
 All work contained in this project was completed as part of the curriculum for ALX Africa SE. ALX Afica is an online full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning.
 ![alx-Africa](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/user/Downloads/alx.png?version%3D1662898256130)
