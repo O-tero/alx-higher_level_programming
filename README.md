@@ -4,7 +4,7 @@
 This repository contains programs written for the higher-level programming track at ALX Africa. In these projects, which began occurring in month four of the year one curriculum, I am currently learning Python.
 Simultaneously, I continued to reinforce and expand my skills in C and shell scripting. The specific list of projects contained follows:
 
-* [Hello world] (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x00-python-hello_world>)
+* [Hello world](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x00-python-hello_world)
 * (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions>)
 * (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x02-python-import_modules>)
 * (<https://github.com/O-tero/alx-higher_level_programming/tree/master/0x03-python-data_structures>)
