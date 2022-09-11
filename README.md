@@ -10,7 +10,7 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 * [0x03-python-data_structures](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x03-python-data_structures)
 * [0x04-python-more_data_structures](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x04-python-more_data_structures)
 * [0x05-python-exceptions](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x05-python-exceptions)
-* [0x06-python-classes] (https://github.com/O-tero/alx-higher_level_programming/tree/master/0x06-python-classes)
+* [0x06-python-classes](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x06-python-classes)
 * [0x07python-test_driven_development](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x07-python-test_driven_development)
 * [0x08-python-more_classes](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x08-python-more_classes)
 * [0x09-python-everything_is_object](https://github.com/O-tero/alx-higher_level_programming/tree/master/0x09-python-everything_is_object)
@@ -26,7 +26,7 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 # Author
 
 -------
-Otero Onderi [O-tero](https://github.com/O-tero)
+Otero Onderi <[O-tero](https://github.com/O-tero)>
 
 # Acknowledgements :pray:
 
